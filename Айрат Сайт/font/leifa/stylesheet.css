@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-BoldItalic.eot');
+    src: local('Leifa Bold Italic'), local('Leifa-BoldItalic'),
+        url('Leifa-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-BoldItalic.woff2') format('woff2'),
+        url('Leifa-BoldItalic.woff') format('woff'),
+        url('Leifa-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Bold.eot');
+    src: local('Leifa Bold'), local('Leifa-Bold'),
+        url('Leifa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Bold.woff2') format('woff2'),
+        url('Leifa-Bold.woff') format('woff'),
+        url('Leifa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-BlackItalic.eot');
+    src: local('Leifa Black Italic'), local('Leifa-BlackItalic'),
+        url('Leifa-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-BlackItalic.woff2') format('woff2'),
+        url('Leifa-BlackItalic.woff') format('woff'),
+        url('Leifa-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-LightItalic.eot');
+    src: local('Leifa Light Italic'), local('Leifa-LightItalic'),
+        url('Leifa-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-LightItalic.woff2') format('woff2'),
+        url('Leifa-LightItalic.woff') format('woff'),
+        url('Leifa-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa Extra';
+    src: url('Leifa-ExtraLightItalic.eot');
+    src: local('Leifa Extra Light Italic'), local('Leifa-ExtraLightItalic'),
+        url('Leifa-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-ExtraLightItalic.woff2') format('woff2'),
+        url('Leifa-ExtraLightItalic.woff') format('woff'),
+        url('Leifa-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa Extra';
+    src: url('Leifa-ExtraBoldItalic.eot');
+    src: local('Leifa Extra Bold Italic'), local('Leifa-ExtraBoldItalic'),
+        url('Leifa-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-ExtraBoldItalic.woff2') format('woff2'),
+        url('Leifa-ExtraBoldItalic.woff') format('woff'),
+        url('Leifa-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa Extra';
+    src: url('Leifa-ExtraBold.eot');
+    src: local('Leifa Extra Bold'), local('Leifa-ExtraBold'),
+        url('Leifa-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-ExtraBold.woff2') format('woff2'),
+        url('Leifa-ExtraBold.woff') format('woff'),
+        url('Leifa-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Black.eot');
+    src: local('Leifa Black'), local('Leifa-Black'),
+        url('Leifa-Black.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Black.woff2') format('woff2'),
+        url('Leifa-Black.woff') format('woff'),
+        url('Leifa-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-RegularItalic.eot');
+    src: local('Leifa Italic'), local('Leifa-RegularItalic'),
+        url('Leifa-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-RegularItalic.woff2') format('woff2'),
+        url('Leifa-RegularItalic.woff') format('woff'),
+        url('Leifa-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa Extra';
+    src: url('Leifa-ExtraLight.eot');
+    src: local('Leifa Extra Light'), local('Leifa-ExtraLight'),
+        url('Leifa-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-ExtraLight.woff2') format('woff2'),
+        url('Leifa-ExtraLight.woff') format('woff'),
+        url('Leifa-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Thin.eot');
+    src: local('Leifa Thin'), local('Leifa-Thin'),
+        url('Leifa-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Thin.woff2') format('woff2'),
+        url('Leifa-Thin.woff') format('woff'),
+        url('Leifa-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Light.eot');
+    src: local('Leifa Light'), local('Leifa-Light'),
+        url('Leifa-Light.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Light.woff2') format('woff2'),
+        url('Leifa-Light.woff') format('woff'),
+        url('Leifa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-ThinItalic.eot');
+    src: local('Leifa Thin Italic'), local('Leifa-ThinItalic'),
+        url('Leifa-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-ThinItalic.woff2') format('woff2'),
+        url('Leifa-ThinItalic.woff') format('woff'),
+        url('Leifa-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-MediumItalic.eot');
+    src: local('Leifa Medium Italic'), local('Leifa-MediumItalic'),
+        url('Leifa-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-MediumItalic.woff2') format('woff2'),
+        url('Leifa-MediumItalic.woff') format('woff'),
+        url('Leifa-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Medium.eot');
+    src: local('Leifa Medium'), local('Leifa-Medium'),
+        url('Leifa-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Medium.woff2') format('woff2'),
+        url('Leifa-Medium.woff') format('woff'),
+        url('Leifa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Leifa';
+    src: url('Leifa-Regular.eot');
+    src: local('Leifa'), local('Leifa-Regular'),
+        url('Leifa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Leifa-Regular.woff2') format('woff2'),
+        url('Leifa-Regular.woff') format('woff'),
+        url('Leifa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,1921 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+:focus {
+    outline: 0;
+}
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+
+[hidden] {
+    display: none;
+}
+
+
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+
+a:focus {
+    outline: thin dotted;
+}
+
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+
+
+figure {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+
+
+
+
+button,
+input {
+    line-height: normal;
+}
+
+
+button,
+select {
+    text-transform: none;
+}
+
+
+
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+
+
+
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.wrapper{
+    justify-content: center;
+    display: flex;
+
+    margin: 0 auto;
+}
+.container
+{
+   
+    width: 1440px;
+    height: 100vh;
+
+}
+.koren
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo
+{
+  
+/* Frame */
+
+
+height: 56px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+
+
+}
+.pol{
+
+
+}
+.logopick
+{
+/* Frame */
+
+
+width: 111px;
+height: 22px;
+margin-left: 64px ;
+top: 17px;
+
+
+
+}
+.why
+{
+
+
+width: 89px;
+height: 56px;
+margin-left: 48px ;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+text-align: center;
+text-decoration: none;
+
+color: #646F79;
+
+}
+.sol
+{
+ /* Why Asana? */
+
+
+width: 89px;
+height: 56px;
+margin-left: 47px ;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+text-align: center;
+text-decoration: none;
+
+color: #646F79;
+}
+.resss
+{
+/* Resources */
+
+
+width: 89px;
+height: 56px;
+margin-left: 45px ;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+text-align: center;
+text-decoration: none;
+color: #646F79;
+
+}
+.ent{
+/* Enterprise */
+
+width: 89px;
+height: 56px;
+margin-left: 41px ;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+text-decoration: none;
+color: #646F79;
+
+
+
+
+}
+.pri{
+/* Pricing */
+
+
+width: 89px;
+height: 56px;
+margin-left: 35px ;
+margin-bottom:100px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+text-decoration: none;
+color: #646F79;
+
+
+
+
+}
+.raz{
+  /* Rectangle */
+ 
+  height: 24px;
+  margin-left: 72%;
+  width: 1.3px;
+  margin-top: -40px;
+  
+  background: #E0E6E8
+
+
+
+}
+.planeta{
+    /* Frame */
+
+position: relative;
+width: 28px;
+height: 28px;
+margin-left: 991px ;
+margin-top: -45px;
+
+
+}
+
+.contact{
+/* Contact Sales */
+
+
+height: 56px;
+margin-left: 1065px ;
+margin-top: -55px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+
+color: #646F79;
+
+
+}
+.login{
+    /* Log In */
+
+height: 56px;
+margin-left: 1188px ;
+margin-top: -55px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 56px;
+/* identical to box height, or 400% */
+
+color: #646F79;
+
+
+}
+.b1{
+    /* Buttons */
+
+/* Try for free */
+
+position: absolute;
+width: 120px;
+height: 36px;
+margin-left: 1256px;
+margin-top: -47px;
+background-color: #796EFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+/* identical to box height, or 257% */
+text-align: top;
+letter-spacing: 0.5px;
+border-radius: 5px;
+border: none;
+color: #FFFFFF;
+
+
+
+}
+
+.preview
+{
+  /* Hero 1 */
+background-color: #FFFF;
+
+width: 100%;
+height: 840px;
+left: 0px;
+top: 80px;
+
+
+}
+.textmain
+{
+ /* Teams don’t lose track of work with Asana */
+
+
+height: 125px;
+margin-left: 64px;
+margin-top: 90px;
+width: 500px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 62px;
+/* or 139% */
+
+color: #151B26;
+
+
+
+
+
+}
+.texttwo
+{
+  /* See your team’s plans, track progress, and discuss work in one place. With Asana as your work manager, you’ll stay on top of everything your team’s doing. */
+
+
+height: 105px;
+margin-left: 65px;
+margin-top: 18px;
+width: 500px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+display: inline-block;
+color: #646F79;
+
+
+
+
+}
+.video
+{
+ /* Rectangle */
+
+
+height: 458px;
+margin-left: 687.7px;
+margin-top: -266px;
+
+
+border-radius: 0px;
+
+
+}
+
+
+
+.Benefit
+{
+  /* Rectangle 2 */
+
+
+width: 100%;
+height: 650px;
+left: 0px;
+top: 920px;
+
+/* Base/BG Primary */
+background: #FFFF;
+
+}
+   .mark{
+  /* Frame */
+
+height: 547px;
+margin-left: 240px;
+margin-top: -200px;
+z-index: 1;
+
+
+
+    }
+    .mark2{
+        /* Frame */
+
+
+height: 539px;
+left: 0%;
+right: 0%;
+margin-top: -383px;
+background: rgba(156, 166, 175, 0.2);
+
+    }
+    .get{
+        /* Get organized */
+
+position: absolute;
+height: 36px;
+margin-left: 376px;
+margin-top: 161px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* identical to box height, or 164% */
+
+color: #222B37;
+
+
+
+    }
+    .add{
+        /* Add and assign action items. Teams know what needs to get done, which tasks are a priority, and when work is due. */
+        position:absolute;
+height: 140px;
+margin-left: 376px;
+margin-top: 215px;
+width: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+color: #646F79;
+
+
+    }
+    .stay{
+        /* Stay on track */
+
+position:absolute;
+height: 36px;
+margin-left: 616px;
+margin-top: 161px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* identical to box height, or 164% */
+
+color: #222B37;
+
+
+    }
+    .focus{
+        /* Focus on tasks currently at hand. Visualize each stage of work and see where things are getting stuck. */
+
+        position:absolute;
+height: 140px;
+margin-left: 616px;
+margin-top: 215px;
+width: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+color: #646F79;
+
+
+    }
+    .hit{
+/* Hit deadlines */
+position:absolute;
+height: 36px;
+margin-left: 856px;
+margin-top: 161px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* identical to box height, or 164% */
+
+color: #222B37;
+
+
+    }
+    .see{
+/* See how work maps out over time. Manage dependent, unscheduled, and overlapping tasks, and create plans teams can count on. */
+position:absolute;
+
+height: 36px;
+margin-left: 856px;
+margin-top: 215px;
+width: 205px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+color: #646F79;
+    }
+    .k3{
+        /* Frame */
+
+
+height: 462px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 100%;
+    }
+    .asana{
+        /* Frame */
+
+height: 438px;
+margin-left: 421px;
+margin-top: 0px;
+width: 595px;
+background: #080B0F;
+
+
+    }
+    .flex{
+/* Rectangle */
+
+
+
+
+background: rgba(246, 248, 249, 0.25);
+
+height: 438px;
+margin-left: 72.25%;
+margin-top: -438px;
+width: 400px;
+background-color: #FCBD01;
+    }
+    .chel{
+        /* Rectangle */
+
+
+height: 438px;
+margin-left: 92px;
+margin-top: -456px;
+border-radius: 0px;
+
+    }
+    .void{
+        position: absolute;
+        height: 438px;
+        margin-left: 1px;
+        margin-top: -454px;
+        width: 67px;
+        background-color: #F9A5C7;
+
+
+    }
+    .textflex1{
+/* Asana’s flexibility and customization are the most powerful parts of it for our marketing organization. */
+
+position:absolute;
+height: 108px;
+margin-left: 32px;
+margin-top: 115px;
+width: 450px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+color: #090C10;
+
+
+    }
+    .textflex2{ 
+/* Dawn Jensen — Senior Program Marketing Manager */
+
+position: absolute;
+height: 23px;
+margin-left: 32px;
+margin-top: 269px;
+width: 400px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 185% */
+text-transform: uppercase;
+
+color: #090C10;
+
+
+    }
+    .textflex3{
+/* View Sophos Case Study */
+
+position: absolute;
+height: 28px;
+margin-left: 32px;
+margin-top: 399px;
+width: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #090C10;
+
+
+    }
+
+    .rec{
+        /* Rectangle */
+
+position: absolute;
+width: 593px;
+height: 1px;
+margin-left: 0.1%;
+margin-top: 384px;
+
+background:rgba(246, 248, 249, 0.25)
+
+    }
+    .rec2{
+        /* Rectangle */
+
+
+        position: absolute;
+        width: 400px;
+        height: 1px;
+        margin-left: 0.1%;
+        margin-top: 384px;
+        
+        background: rgba(9, 12, 16, 0.25);
+
+    }
+    .rec3{
+        /* Rectangle */
+
+/* Rectangle */
+
+position: absolute;
+height: 1px;
+left: 0%;
+right: 0%;
+top: 384px;
+
+background: rgba(9, 12, 16, 0.25);
+
+
+    }
+    .s1{
+/* Frame */
+
+position: absolute;
+width: 21px;
+height: 16px;
+left: calc(50% - 18px/2 - 12px);
+margin-top: 403.5px;
+
+
+    }
+    .s2{
+        position: absolute;
+        width: 21px;
+        height: 16px;
+        left: calc(50% - -31px/2 - 12px);
+        margin-top: 403.5px;;
+
+    }
+
+.s3{
+/* Frame */
+
+position: absolute;
+width: 21px;
+height: 16px;
+left: calc(50% - -505px/2 - 12px);
+margin-top: 404px;
+
+
+}
+.s4{
+    position: absolute;
+    width: 21px;
+    height: 16px;
+    left: calc(50% - -555px/2 - 12px);
+margin-top: 404px;
+
+}
+    .textasana1{
+        /* Asana enabled us to reduce planning time by 66% and scale from 40 to 200 campaigns per quarter. */
+
+position: absolute;
+height: 72px;
+margin-left: 34px;
+margin-top: 116px;
+width: 500px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+color: #F6F8F9;
+
+
+    }
+    .textasana2{
+        /* Badrul Farooqi — Project Manager */
+
+position: absolute;
+height: 23px;
+margin-left: 34px;
+margin-top: 269px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 185% */
+text-transform: uppercase;
+
+color: #E0E6E8;
+
+
+    }
+        .textasana3{
+/* View Figma Case Study */
+
+position: absolute;
+height: 28px;
+margin-left: 34px;
+margin-top: 398px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #F6F8F9;
+
+
+        }
+        .kr{
+            /* Frame */
+
+position: absolute;
+width: 108px;
+height: 70px;
+margin-left: calc(50% - 64.19%/2 - 12px);
+        top: -1px;
+
+
+        }
+        .void2{
+        
+
+position: relative;
+height: 438px;
+margin-left: 1440px;
+margin-top: -455px;
+width: 60px;
+background-color: #ffffff;
+z-index: 0;
+        }
+            
+ 
+    .b2{/* Buttons */
+
+     
+        position: absolute;
+width: 144px;
+height: 51px;
+margin-left: -1360px ;
+margin-top: 85px;
+background-color: #796EFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+/* identical to box height, or 257% */
+text-align: top;
+letter-spacing: 0.5px;
+border-radius: 5px;
+border: none;
+display: inline-block;
+color: #FFFFFF
+
+        }
+        .fire{
+            /* Frame */
+
+
+height: 462px;
+left: 0%;
+right: 0%;
+top: 462px;
+background-color: #ffffff;
+
+        }
+        .boloto{
+            /* Rectangle */
+
+
+height: 438px;
+left: 0%;
+right: 64.29%;
+top: 0px;
+
+background: url(.png);
+border-radius: 0px;
+
+        }
+        .krr{
+            /* Frame */
+
+
+width: 108px;
+height: 70px;
+margin-left: calc(50% - 687px/2 - 666px);
+margin-top: -369px;
+
+
+
+        }
+        .WithAsana{
+            /* Frame */
+
+width: 594px;
+height: 438px;
+margin-left: 19.9%;
+margin-top: -438px;
+background-color: #99E4D2;
+
+        }
+        .fireclay{
+            /* Rectangle */
+
+
+height: 30px;
+margin-left: 5.39%;
+margin-top: 31.56px;
+
+background: url(.png);
+border-radius: 0px;
+
+        }
+        .textwithasana1{
+            /* With Asana, we save an estimated 50 hours per week that used to be spent answering email and attending check-in meetings. */
+width: 550px;
+height: 108px;
+margin-left: 5.4%;
+margin-top: 55px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+color: #090C10;
+
+
+        }
+        .textwithasana2{
+/* Jamie Chappell — Creative Director */
+
+
+height: 23px;
+margin-left: 5.4%;
+margin-top: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 185% */
+text-transform: uppercase;
+
+color: #090C10;
+
+
+
+
+        }
+        .textwithasana3{
+            /* View Fireclay Tile Case Study */
+
+
+height: 28px;
+margin-left: 5.4%;
+margin-top: 105px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #090C10;
+
+
+        }
+        .Asanahas{
+            /* Frame */
+
+width: 535px;
+height: 438px;
+margin-left: 62.8%;
+margin-top: -436px;
+background-color: #E0E6E8;
+border-radius:0%;
+
+        }
+        .ks{
+            /* Rectangle */
+
+
+height: 30px;
+margin-left: 6%;
+margin-top: 30px;
+
+background: url(.png);
+border-radius: 0px;
+
+        }
+        .textasanahas1{
+/* Asana has been instrumental in enabling our team to grow by 6X this year and successfully scale our processes. */
+
+
+height: 108px;
+margin-left: 6%;
+margin-top: 55px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+color: #090C10;
+
+
+        }
+        .textasanahas2{
+/* Ryan Bonnici — Chief Marketing Officer */
+
+
+height: 23px;
+margin-left: 6%;
+margin-top: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 185% */
+text-transform: uppercase;
+
+color: #090C10;
+
+
+        }
+        .textasanahas3{
+/* View G2 Case Study */
+
+
+height: 28px;
+margin-left: 6%;
+margin-top: 105px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #090C10;
+
+
+        }
+        .rec4{
+            /* Rectangle */
+
+
+height: 1px;
+margin-left: 0%;
+margin-top: -41px;
+
+background: rgba(9, 12, 16, 0.25);
+
+        }
+        .rec5{
+            /* Rectangle */
+
+height: 1px;
+margin-left: 0%;
+margin-top:-41px;
+
+background: rgba(9, 12, 16, 0.25);
+
+        }
+        .s5{
+/* Frame */
+
+
+height: 16px;
+margin-left: 90.61%;
+margin-top: 19.44px;
+
+
+        }
+        .s6{
+            height: 16px;
+            margin-left: 96.5%;
+            margin-top: 18px;
+        }
+        .Stay{
+            /* Frame */
+
+
+/* Frame */
+
+
+height: 199px;
+margin-left: 17.07%;
+margin-right: 17.07%;
+margin-top: 200px;
+
+
+
+        }
+        .fea{
+/* Features */
+
+
+width: 74px;
+height: 21px;
+margin-left: calc(50% - 74px/2);
+margin-top: 240.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #848F99;
+
+
+        }
+        .stayor{
+/* Stay organized and in control */
+
+
+width: 453px;
+height: 43px;
+margin-left: calc(50% - 453px/2 + 0.5px);
+margin-top:5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 43px;
+/* identical to box height, or 139% */
+text-align: center;
+
+color: #151B26;
+
+
+        }
+        .from{
+/* From planning projects to tracking progress, see how your team can make sure nothing falls through the cracks. */
+
+
+width: 793px;
+height: 64px;
+margin-left: calc(50% - 793px/2 + 0.5px);
+margin-top: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+text-align: center;
+
+color: #646F79;
+
+
+        }
+        .Task{
+            /* Frame */
+
+
+height: 801px;
+left: -1.22%;
+right: -1.22%;
+top: 311px;
+
+
+        }
+        .due{
+            /* Rectangle */
+
+margin-top: 105px;
+margin-left: 48px;
+        }
+        .getstart{
+            /* Rectangle */
+
+height: 524px;
+margin-left: 0%;
+margin-top: 1px;
+
+background: #080B0F;
+border-radius: 0px;
+
+        }
+        .gett{
+            /* Get started */
+
+position: relative;
+width: 252px;
+height: 56px;
+margin-left: calc(50% - 252px/2 + 0.02px);
+top: 139px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 56px;
+/* identical to box height, or 124% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+        }
+        .seeev{
+            /* See everything your team’s working on, all in one place. */
+
+
+width: 603px;
+height: 36px;
+margin-left: calc(50% - 603px/2 - 0.48px);
+margin-top: 158px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* identical to box height, or 164% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+        }
+        .b3{
+            
+        position: absolute;
+        width: 144px;
+        height: 51px;
+        margin-left: 648px ;
+        margin-top: 47px;
+        background-color: #ffffff;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        /* identical to box height, or 257% */
+        text-align: top;
+        letter-spacing: 0.5px;
+        border-radius: 5px;
+        border: none;
+        display: inline-block;
+        color: #000000
+        }
+        .ASana{
+            /* Frame */
+
+position: relative;
+height: 582px;
+left: 0%;
+right: 0%;
+top: 0px;
+background-color: #151B26;
+
+
+        }
+        .eg{
+            /* Frame */
+
+
+height: 105px;
+left: 0%;
+right: 0%;
+top: 582px;
+background-color: #222B37;
+
+
+        }
+        .planeti{
+            /* Frame */
+
+
+width: 40px;
+height: 41px;
+margin-left:173px;
+margin-top: 31px;
+
+
+        }
+        .eng{
+            /* English */
+
+
+height: 25px;
+margin-left: 14.8%;
+margin-top: -33px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #ffffffcb;
+
+
+        }
+        .teee{
+            /* Terms & Privacy */
+
+
+width: 113px;
+height: 25px;
+margin-left: 28.4%;
+margin-top: -25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #ffffffcb;
+
+
+        }
+        .logot{
+/* Frame */
+
+
+height: 39px;
+margin-left: 46.3%;
+margin-top: -43px;
+
+
+        }
+        .apgo{
+            /* Frame */
+
+width: 266px;
+height: 41px;
+margin-left: 69.55%;
+margin-top: -75px;
+
+
+        }
+        .rec10{
+            /* Frame */
+
+            width: 102px;
+            height: 3px;
+            margin-left: 61.15%;
+            right: 0%;
+            margin-top: -527px;
+            background-color: #222B37;
+
+
+        }
+        .rec11{
+  
+width: 395px;
+height: 3px;
+margin-left: 68.2%;
+right: 0%;
+margin-top: -2.5px;
+background-color: #D5DCE0;
+        }
+ .plan{
+    /* Plan better projects */
+
+
+height: 28px;
+margin-left: 63.37%;
+margin-top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #151B26;
+
+
+ }
+ .st1{
+    /* Frame */
+
+
+width: 11px;
+height: 7px;
+margin-left: calc(50% - -805px/2 + 210.52px);
+margin-top:-50px;
+
+
+ }
+ .Use{
+    /* Use Timeline to create project plans with start dates and dependencies so you can stay on schedule and hit your deadlines—even as work changes. */
+
+width: 400px;
+height: 72px;
+margin-left: 63.4%;
+margin-top:-6.5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 170% */
+
+color: #646F79;
+
+
+ }
+ .Learn{
+    /* Learn about Timeline */
+
+
+height: 21px;
+margin-left: 63.35%;
+margin-top: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+color: #796EFF;
+
+
+    text-decoration: none;
+ }
+ .st2{
+    /* Frame */
+
+
+height: 17.89px;
+margin-left: 72.65%;
+margin-top: -39.5px;
+
+
+ }
+ .rec12{
+    /* Rectangle */
+
+width: 500px;
+height: 3px;
+margin-left: 61%;
+right: 0%;
+margin-top: 16px;
+
+background: #EDF8FF;
+border-radius: 0px;
+
+ }
+ .Kick{
+    /* Kick off projects faster */
+
+
+height: 28px;
+margin-left: 63.35%;
+margin-top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #151B26;
+
+
+ }
+ .rec13{
+       /* Rectangle */
+
+width: 500px;
+height: 3px;
+margin-left: 61%;
+right: 0%;
+margin-top: 0px;
+
+background: #E2FFFA;
+border-radius: 0px;
+
+ }
+ .st3{
+    width: 11px;
+height: 7px;
+margin-left: calc(50% - -805px/2 + 210.52px);
+margin-top:-40px;
+ }
+ .Rep{/* Report on Progress */
+
+    height: 28px;
+    margin-left: 63.35%;
+    margin-top: 17px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    color: #151B26;
+    
+    }
+    .st4{
+        width: 11px;
+        height: 7px;
+        margin-left: calc(50% - -805px/2 + 210.52px);
+        margin-top:-40px;
+    }
+    .rec14{
+        width: 500px;
+height: 3px;
+margin-left: 61%;
+right: 0%;
+margin-top: 0px;
+
+background: #EDF8FF;
+border-radius: 0px;
+    }
+ .Con{/* Control your work */
+
+    height: 28px;
+    margin-left: 63.36%;
+    margin-top: 17px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    color: #151B26;
+    
+    }
+    .st5{
+        width: 11px;
+        height: 7px;
+        margin-left: calc(50% - -805px/2 + 210.52px);
+        margin-top:-40px;
+    }
+    .rec15{
+       /* Rectangle */
+
+width: 500px;
+height: 1px;
+margin-left: 61%;
+margin-top: 0px;
+
+background: #E0E6E8;
+
+    }
+    .alogo{
+        /* Asana Logo */
+width: 50px;
+position: relative;
+height: 49px;
+margin-left: 5.5%;
+top: 83px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 175% */
+
+color: #796EFF;
+
+
+    }
+  .textASana1{
+    /* Asana */
+
+height: 25px;
+margin-left: 13.1%;
+margin-top:30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #9CA6AF;
+
+
+  }
+  .textASana2{
+    /* Asana */
+
+height: 25px;
+margin-left: 28.3%;
+margin-top:-25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #9CA6AF;
+
+
+  }
+  .textASana3{
+    /* Asana */
+
+height: 25px;
+margin-left: 43.5%;
+margin-top:-25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #9CA6AF;
+
+
+  }
+  .textASana4{
+    /* Asana */
+
+height: 25px;
+margin-left: 58.65%;
+margin-top:-25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #9CA6AF;
+
+
+  }
+  .textASana5{
+    /* Asana */
+
+height: 25px;
+margin-left:73.8%;
+margin-top:-25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #9CA6AF;
+
+
+  }
+  li{
+    padding:7px;
+  }
+  .h{
+    /* Home */
+
+
+height: 25px;
+margin-left:12.6%;
+margin-top: 25px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #FFFFFF;
+
+
+  }
+  .c{
+    /* Home */
+
+
+height: 25px;
+margin-left:27.8%;
+margin-top:-26px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #FFFFFF;
+
+
+  }
+  .p{
+      /* Home */
+
+
+height: 25px;
+margin-left:42.99%;
+margin-top:-25px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 175% */
+
+color: #FFFFFF;
+  }
+  .a{
+
+    height: 25px;
+    margin-left:58.15%;
+    margin-top:-25px;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 175% */
+    
+    color: #FFFFFF;
+  }
+  .cr{
+    height: 25px;
+    margin-left:73.4%;
+    margin-top:-25px;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 175% */
+    
+    color: #FFFFFF;
+  }
